@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CANVAS CANVAS | Neo-Brutalist Pixel Art & SVG Editor</title>
-    <meta name="description" content="An ultra-premium, interactive Neo-Brutalist pixel art creator and frame animator. Export CSS, SVG, and high-res PNGs.">
-    
+    <meta name="description"
+        content="An ultra-premium, interactive Neo-Brutalist pixel art creator and frame animator. Export CSS, SVG, and high-res PNGs.">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
+
     <!-- Lucide Icons -->
     <script src="https://cdn.jsdelivr.net/npm/lucide@0.344.0/dist/umd/lucide.min.js"></script>
-    
+
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="app-header">
         <div class="logo-container">
@@ -31,6 +36,7 @@
         </div>
     </header>
 
+    <!-- GONG -->
     <main class="app-body">
         <!-- TOOLBAR (Left) -->
         <aside class="sidebar tools-sidebar">
@@ -87,6 +93,7 @@
             </div>
         </aside>
 
+        <!-- GONG -->
         <!-- DRAWING CANVAS (Center) -->
         <section class="canvas-workspace">
             <div class="canvas-outer-container">
@@ -101,6 +108,7 @@
             </div>
         </section>
 
+        <!-- GONG -->
         <!-- PALETTE & PREVIEW (Right) -->
         <aside class="sidebar palette-sidebar">
             <div class="sidebar-section">
@@ -112,7 +120,7 @@
                         <span id="color-hex-text">#FF007A</span>
                     </div>
                 </div>
-                
+
                 <div class="palette-swatches" id="palette-swatches">
                     <!-- Standard Neo Brutalist Palette -->
                     <div class="swatch active" style="background-color: #FF007A;" data-color="#FF007A"></div>
@@ -213,4 +221,5 @@
     <!-- Application Javascript -->
     <script src="app.js"></script>
 </body>
+
 </html>
